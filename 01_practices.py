@@ -37,3 +37,14 @@
 #     'Marks': [80, 90, 85, 70, 75, 95]
 # })
 # df.head()
+
+# Q.5 
+
+# import pandas as pd
+
+# df = pd.DataFrame({
+#     'Marks': [70, 80, 90, 85, 75, 95],
+#     'Attendance': [88, 92, 85, 90, 95, 87]
+# })
+
+# df.describe()

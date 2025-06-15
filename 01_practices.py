@@ -28,3 +28,12 @@
 
 # result = data.groupby('Class')['Marks'].sum()
 # print(result)
+
+# Q.4 
+
+# import pandas as pd
+# df = pd.DataFrame({
+#     'Name': ['Raj', 'Neha', 'Amit', 'Simran', 'John', 'Sara'],
+#     'Marks': [80, 90, 85, 70, 75, 95]
+# })
+# df.head()

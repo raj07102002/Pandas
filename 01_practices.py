@@ -16,3 +16,15 @@
 #     'B': [4, None, 6]
 # })
 # print(df.count())
+
+# Q.3
+# import pandas as pd
+
+# data = pd.DataFrame({
+#     'Student': ['Raj', 'Simran', 'Amit', 'Neha', 'Ali'],
+#     'Class': [10, 10, 9, 9, 10],
+#     'Marks': [80, 70, 90, 85, 60]
+# })
+
+# result = data.groupby('Class')['Marks'].sum()
+# print(result)

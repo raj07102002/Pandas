@@ -48,3 +48,16 @@
 # })
 
 # df.describe()
+
+# Q.6
+
+# import pandas as pd
+
+# data = {'Name': ['Alice', 'Bob', 'Charlie'],
+#         'Age': [25, 30, 22]}
+
+# df = pd.DataFrame(data)
+
+# # Sort by Age (ascending)
+# sorted_df = df.sort_values(by='Age')
+# print(sorted_df)

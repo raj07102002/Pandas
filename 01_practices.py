@@ -73,3 +73,15 @@
 # df = pd.DataFrame(data)
 
 # print(df['Name'].nunique())
+
+# Q.8 
+
+# import pandas as pd
+
+# data = {
+#     'deaths': [5, 8, 12, 6, 9]
+# }
+
+# df = pd.DataFrame(data)
+
+# print(df['deaths'].iloc[2])

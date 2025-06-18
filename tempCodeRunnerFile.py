@@ -1,6 +1,11 @@
-Q1
+Q.7
 
 # import pandas as pd
-# data = {'Name': ['Alice', 'Bob'], 'Age': [25, 30]}
+
+# data = {
+#     'Name': ['Alice', 'Bob', 'Alice', 'Charlie', 'Bob', 'David']
+# }
+
 # df = pd.DataFrame(data)
-# (df)
+
+# print(df['Name'].nunique())

@@ -61,3 +61,15 @@
 # # Sort by Age (ascending)
 # sorted_df = df.sort_values(by='Age')
 # print(sorted_df)
+
+# Q.7
+
+# import pandas as pd
+
+# data = {
+#     'Name': ['Alice', 'Bob', 'Alice', 'Charlie', 'Bob', 'David']
+# }
+
+# df = pd.DataFrame(data)
+
+# print(df['Name'].nunique())

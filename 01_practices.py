@@ -84,4 +84,16 @@
 
 # df = pd.DataFrame(data)
 
-# print(df['deaths'].iloc[2])
+# print(df['deaths'].iloc[2]) 
+
+# Q.9 
+
+# import pandas as pd
+
+# b = pd.DataFrame({
+#     'item': ['Apple', 'Banana', 'Cherry'],
+#     'quantity': [5, 2, 8]
+# })
+
+# c = b.sort_values("quantity")
+# print(c)

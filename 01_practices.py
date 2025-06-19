@@ -97,3 +97,16 @@
 
 # c = b.sort_values("quantity")
 # print(c)
+
+Q.10 
+
+import pandas as pd
+
+df = pd.DataFrame({
+    'Marks': [80, 90, 75]
+})
+
+# Add 5 bonus marks using lambda
+df['Bonus'] = df['Marks'].apply(lambda x: x + 5)
+
+print(df)

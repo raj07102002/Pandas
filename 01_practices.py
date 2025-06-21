@@ -111,9 +111,9 @@
 
 # print(df) 
 
-Q.11 
+# Q.11 
 
-import pandas as pd
-df = pd.read_csv('customers.csv')
-print("Original Data:")
-print(df.head())
+# import pandas as pd
+# df = pd.read_csv('customers.csv')
+# print("Original Data:")
+# print(df.head)

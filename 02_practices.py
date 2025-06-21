@@ -33,4 +33,31 @@
 # }
 
 # df = pd.DataFrame(data)
-# print(df)
+# print(df) 
+
+# Q.4 
+# # From a dictionary of lists (most common)
+# data = {
+#     'Name': ['Alice', 'Bob', 'Charlie', 'David'],
+#     'Age': [25, 30, 35, 28],
+#     'City': ['New York', 'London', 'Paris', 'Tokyo']
+# }
+# df1 = pd.DataFrame(data)
+# print("DataFrame from a dictionary of lists:\n", df1)
+# print("-" * 30)
+
+# # From a list of dictionaries
+# data_list_of_dict = [
+#     {'Name': 'Eve', 'Age': 22, 'City': 'Rome'},
+#     {'Name': 'Frank', 'Age': 40, 'City': 'Berlin'},
+#     {'Name': 'Grace', 'Age': 29, 'City': 'Sydney'}
+# ]
+# df2 = pd.DataFrame(data_list_of_dict)
+# print("DataFrame from a list of dictionaries:\n", df2)
+# print("-" * 30)
+
+# # From a NumPy array (with custom columns and index)
+# data_array = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+# df3 = pd.DataFrame(data_array, columns=['ColA', 'ColB', 'ColC'], index=['Row1', 'Row2', 'Row3'])
+# print("DataFrame from a NumPy array:\n", df3)
+# print("-" * 30)

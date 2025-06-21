@@ -12,3 +12,13 @@
 # print(cars.shape)    # Shows total rows and columns
 # print(cars.head())   # See the first 5 rows
 # print(cars.tail())   # See the last 5 rows
+
+# Q.2 
+# import pandas as pd
+
+# df = pd.DataFrame({
+#     'name': ['Raj', 'Neha', 'Amit', 'Ravi', 'Simran'],
+#     'occupation': ['Doctor', 'Engineer', 'Doctor', 'Doctor', 'Engineer']
+# })
+
+# print(df['occupation'].value_counts().head(1))

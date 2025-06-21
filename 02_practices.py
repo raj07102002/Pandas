@@ -60,4 +60,16 @@
 # data_array = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 # df3 = pd.DataFrame(data_array, columns=['ColA', 'ColB', 'ColC'], index=['Row1', 'Row2', 'Row3'])
 # print("DataFrame from a NumPy array:\n", df3)
-# print("-" * 30)
+# print("-" * 30) 
+
+# Q.5 
+
+# import pandas as pd
+
+# euro12 = pd.DataFrame({
+#     'Team': ['Germany', 'Spain', 'Greece', 'Italy'],
+#     'Goals': [10, 12, 5, 8]
+# })
+
+# result = euro12[euro12.Team.str.startswith('G')]
+# print(result)

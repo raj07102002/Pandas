@@ -21,4 +21,16 @@
 #     'occupation': ['Doctor', 'Engineer', 'Doctor', 'Doctor', 'Engineer']
 # })
 
-# print(df['occupation'].value_counts().head(1))
+# print(df['occupation'].value_counts().head(1)) 
+
+# Q.3 
+
+# import pandas as pd
+
+# data = {
+#     'Customer': ['Raj', 'Neha', 'Amit', 'Raj', 'Neha'],
+#     'City': ['Delhi', 'Mumbai', 'Delhi', 'Delhi', 'Pune']
+# }
+
+# df = pd.DataFrame(data)
+# print(df)

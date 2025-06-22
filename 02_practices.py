@@ -99,7 +99,19 @@
 # df = pd.DataFrame(data)
 
 # df[df['City'] == 'Delhi']
-# df['Name'].value_counts()
+# df['Name'].value_counts() 
+
+# Q.8 
+
+# import pandas as pd
+
+# df = pd.DataFrame({
+#     'Goals': [1, 2, 3],
+#     'Team': ['A', 'B', 'C']
+# })
+
+# print(df['Goals'])      
+# print(df[Goals])
 
 
 

@@ -72,4 +72,15 @@
 # })
 
 # result = euro12[euro12.Team.str.startswith('G')]
-# print(result)
+# print(result) 
+
+# Q.6 
+
+# import pandas as pd
+
+# data = pd.DataFrame({
+#     'A': [10, 20, 30],
+#     'B': [100, 200, 300]
+# })
+
+# print(data.iloc[1, 0])

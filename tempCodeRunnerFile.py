@@ -1,4 +1,4 @@
-Q.7
+
 
 # import pandas as pd
 
@@ -8,4 +8,6 @@ Q.7
 
 # df = pd.DataFrame(data)
 
-# print(df['Name'].nunique())
+# print(df['Name'].nunique()) 
+
+Q

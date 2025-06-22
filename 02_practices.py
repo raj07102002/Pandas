@@ -83,4 +83,29 @@
 #     'B': [100, 200, 300]
 # })
 
-# print(data.iloc[1, 0])
+# print(data.iloc[1, 0]) 
+
+# Q.7 
+
+# import pandas as pd
+
+# data = {
+#     'Name': ['Raj', 'Neha', 'Amit', 'Raj', 'Simran'],
+#     'City': ['Delhi', 'Mumbai', 'Delhi', 'Delhi', 'Pune'],
+#     'Marks': [85, 92, 78, 85, 91],
+#     'Grade': ['B', 'A', 'C', 'B', 'A']
+# }
+
+# df = pd.DataFrame(data)
+
+# df[df['City'] == 'Delhi']
+# df['Name'].value_counts()
+
+
+
+
+
+
+
+
+

@@ -113,6 +113,18 @@
 # print(df['Goals'])      
 # print(df[Goals])
 
+Q.10 
+
+import pandas as pd
+
+df = pd.DataFrame({
+    'Name': ['Raj', 'Ali', 'Sara'],
+    'Math': [85, 90, 95],
+    'Science': [78, 88, 91],
+    'English': [92, 84, 89]
+}) 
+
+print(df['Math'])
 
 
 

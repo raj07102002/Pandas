@@ -113,18 +113,31 @@
 # print(df['Goals'])      
 # print(df[Goals])
 
-Q.10 
+# Q.9
 
-import pandas as pd
+# import pandas as pd
 
-df = pd.DataFrame({
-    'Name': ['Raj', 'Ali', 'Sara'],
-    'Math': [85, 90, 95],
-    'Science': [78, 88, 91],
-    'English': [92, 84, 89]
-}) 
+# df = pd.DataFrame({
+#     'Player': ['Virat', 'Rohit', 'Hardik'],
+#     'Runs': [75, 60, 40],
+#     'Wickets': [0, 1, 3]
+# })
 
-print(df['Math'])
+
+# print(df['Runs'])
+
+# Q.10
+
+# import pandas as pd
+
+# df = pd.DataFrame({
+#     'Name': ['Raj', 'Ali', 'Sara'],
+#     'Math': [85, 90, 95],
+#     'Science': [78, 88, 91],
+#     'English': [92, 84, 89]
+# }) 
+
+# print(df['Math'])
 
 
 

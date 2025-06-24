@@ -7,4 +7,16 @@
 # })
 
 # # Get the Quantity column
-# print(df['Quantity'])
+# print(df['Quantity']) 
+
+# Q.2 
+
+# import pandas as pd
+
+# df = pd.DataFrame({
+#     'Name': ['Raj', 'Ali', 'Sara', 'Maya', 'Tom'],
+#     'Occupation': ['Doctor', 'Engineer', 'Doctor', 'Teacher', 'Engineer']
+# })
+
+# print(df['Occupation'].nunique())       
+# print(df['Occupation'].unique()) 

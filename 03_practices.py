@@ -31,4 +31,16 @@
 
 # unique_ints = df['Score'].dropna().unique()
 # print("Unique integer values:", unique_ints)
-# print("Count:", len(unique_ints))
+# print("Count:", len(unique_ints)) 
+
+# Q.4 
+
+# import pandas as pd
+
+# df = pd.DataFrame({
+#     'Name': ['Raj', 'Ali', 'Sara', 'Maya', 'Tom'],
+#     'Occupation': ['Doctor', 'Engineer', 'Doctor', 'Teacher', 'Engineer']
+# })
+
+# print(df['Occupation'].nunique())       # Output: 3
+# print(df['Occupation'].unique())

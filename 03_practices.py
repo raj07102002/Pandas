@@ -20,3 +20,15 @@
 
 # print(df['Occupation'].nunique())       
 # print(df['Occupation'].unique()) 
+
+# Q.3 
+
+# import pandas as pd
+
+# df = pd.DataFrame({
+#     'Score': [10, 20, 10, 30, 20, 40]
+# })
+
+# unique_ints = df['Score'].dropna().unique()
+# print("Unique integer values:", unique_ints)
+# print("Count:", len(unique_ints))

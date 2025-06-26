@@ -43,4 +43,19 @@
 # })
 
 # print(df['Occupation'].nunique())       # Output: 3
-# print(df['Occupation'].unique())
+# print(df['Occupation'].unique()) 
+
+# Q.5 
+
+# import pandas as pd
+
+# # Create columns with data
+# df = pd.DataFrame({
+#     'Name': ['Raj', 'Ali', 'Sara'],
+#     'Age': [22, 24, 23],
+#     'City': ['Delhi', 'Mumbai', 'Chennai'] 
+
+# })
+# df.columns = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'class']
+# print(df)
+

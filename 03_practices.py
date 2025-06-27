@@ -57,5 +57,18 @@
 
 # })
 # df.columns = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'class']
-# print(df)
+# print(df) 
+
+Q.6 
+
+import pandas as pd
+
+# Load the datasets
+cars1 = pd.read_csv('cars1.csv')
+cars2 = pd.read_csv('cars2.csv')
+
+# Optional: Display the first few rows of each
+print("CARS 1:\n", cars1.head())
+print("\nCARS 2:\n", cars2.head()) 
+
 
